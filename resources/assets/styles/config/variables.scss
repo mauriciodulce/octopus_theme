@@ -1,0 +1,30 @@
+// prettier-ignore
+/* stylelint-disable */
+$font-path: '../fonts' !default;
+:root {
+    --space: 2.2vmax;
+    --teal:  #20c997;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --octogray-500: #9B9DA1;
+    --octogray-300: #C3C4C7;
+    --octogray-200: #D7D8DA;
+    --octogray-100: #EBEBEC;
+    --octogray-50: #F5F5F5;
+    --octogray: #383C45;
+    --deep-red: #E23167;
+    --warning: #ffc107;
+    --light:#fbfbfb;
+    --dark:#0b0c0c;
+    --black:#000;
+    --aqua:#00FFFF;
+    --springgreen:#00FA9A;
+    --coral:#FF7F50;
+    --font-family-sans-serif: Biotif, sans-serif;
+    --font-family-monospace: "ia writer", monospace;
+}
+
+a{
+    color: config('theme.colors.octogray.900')
+}

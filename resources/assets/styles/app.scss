@@ -1,0 +1,21 @@
+/** Config */
+@import 'tailwindcss/base';
+
+@import "config/variables.scss";
+
+@import "common/fonts",
+        "common/global",
+        "common/sections.scss";
+
+@import "components/nav",
+        "components/cards";
+
+@import "partials/footer.scss";
+
+        .grid-auto-rows{
+          grid-auto-rows: minmax(50px,auto);
+        }
+@import 'tailwindcss/components',
+        'tailwindcss/utilities',
+        'tailwindcss/screens';
+

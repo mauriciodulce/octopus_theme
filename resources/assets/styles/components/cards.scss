@@ -1,0 +1,79 @@
+// width: calc(50% - 20px);
+.card{
+  &-a{
+    @apply bg-octagray-900;
+    @screen sm{
+      @apply ml-6;
+      width: calc(50% - 20px);
+      &:nth-child(odd){
+        @apply ml-0;
+      }
+      &:nth-child(n+3){
+        @apply mt-6;
+      }
+    }
+    &__link{
+      transition: padding .3s ease;
+    }
+    &:hover{
+      background: linear-gradient(140deg,#781F73 22%,#014FD4);
+      .card-a__link{
+        @apply pl-6;
+      }
+    }
+  }
+}
+.swiper-slide--sl{
+  width: calc(100% - 13%)!important;
+  .sl{
+    &-content{
+
+    }
+  }
+}
+
+.c{
+  &-swiper{
+    @screen sm{
+      width: calc(100% - 22%);
+    }
+    @screen md{
+      width: calc(100% - 30%);
+    }
+  }
+  &-navigation{
+    @screen sm{
+      .swiper-button-next,
+      .swiper-button-prev{
+        @apply text-octagray-900;
+      }
+      .swiper-button-next{
+        right: 60px;
+        &:after{
+          content: '\e807';
+          font-family: "fontello";
+        }
+      }
+      .swiper-button-prev{
+        left: inherit;
+        right: 110px;
+        &:after{
+          content: '\e806';
+          font-family: "fontello";
+        }
+      }
+    }
+    @screen lg{
+      .swiper-button-next,
+      .swiper-button-prev{
+        top: -100px;
+      }
+      .swiper-button-next{
+        right: 20px;
+      }
+      .swiper-button-prev{
+        right: 80px;
+      }
+    }
+  }
+}

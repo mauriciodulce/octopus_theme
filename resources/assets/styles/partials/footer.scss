@@ -1,0 +1,52 @@
+.c-footer__widget{
+  ul{
+    @apply mt-2;
+    @screen lg{
+      @apply mt-4;
+    }
+  }
+  li{
+    @apply text-sm leading-3;
+    @screen lg{
+      @apply text-base leading-5;
+    }
+    a{
+      @apply inline-block py-1 ;
+      @extend %underline;
+    }
+  }
+}
+.c-footer__newsletter{
+  @apply text-sm flex flex-wrap;
+  .gform_heading{
+    @apply mb-0 #{!important};
+  }
+  .gform_description{
+    @apply mb-0 #{!important}
+  }
+  .gform_fields{}
+  .gform_body{
+    @apply w-full
+  }
+  .gform_footer{
+    input[type=submit]{
+      @apply w-full bg-octagray-900 px-4 py-4 rounded-full leading-none text-sm text-white #{!important};
+      &:focus{
+        @apply border-0;
+      }
+      &:hover{
+        @apply bg-gray-700;
+      }
+    }
+  }
+  .ginput_container_email{
+    input[type=email]{
+      @apply border border-octagray-900 w-full px-4 py-3 rounded-full leading-none text-sm mt-0 #{!important};
+      min-height: inherit !important;
+      &::placeholder{
+        @apply text-octagray-300 ;
+      }
+    }
+  }
+}
+// border border-octagray-900 border-r-0 large placeholder-gray-500 px-4 py-3 rounded-l-full

@@ -1,0 +1,192 @@
+/*Main Nav*/
+.blend-mode{
+  mix-blend-mode: difference;
+}
+.main-nav{
+  .menu-our-solutions,
+  .menu-nuestras-soluciones{
+    > .sub-menu{
+      @screen lg{
+        left: -30%;
+      }
+      @screen xl{
+        left: 0;
+      }
+    }
+  }
+  @apply flex;
+  li{
+    @apply mx-5 px-1;
+    &:last-child{
+      @apply mr-0 pr-0;
+    }
+    a{
+      @apply font-medium transition duration-150 ease-in-out text-gray-800 relative;
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 7px;
+        height: 2px;
+        width: 0;
+        transition: width 0s ease, background .25s ease;
+      }
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 7px;
+        height: 2px;
+        width: 0;
+        @apply bg-octagray-900;
+        transition: width .25s ease;
+      }
+      &:hover{
+        @apply text-octagray-900;
+        &:before {
+          width: 100%; @apply bg-octagray-900; transition: width .25s ease;
+        }
+        &:after{
+          width: 100%;
+          background: transparent;
+          transition: all 0s ease;
+        }
+      }
+    }
+     &.menu-item-has-children{
+       i{
+         @apply mr-5 text-xl font-light;
+       }
+      @screen md{
+        @apply relative;
+        &:after{
+          transition: transform 0.2s ease-out;
+          content: '\f107';
+          font-family: "fontello";
+          @apply absolute block ml-0 py-2 -mt-5;
+          top: 50%;
+          right: -15px;
+          margin-left: 0;
+        }
+        &:hover{
+          &:after{
+            transform: rotate(180deg);
+          }
+        }
+      }
+      > .sub-menu{
+        @apply absolute bg-white whitespace-no-wrap p-0 hidden m-0;
+        box-shadow: 11px 5px 33px 0 rgba(48,48,48,0.07);
+        top: 100%;
+        .menu-item{
+          @apply p-0 m-0;
+          &.menu-item-has-children{
+            @apply border-gray-300 border-solid border-r;
+            &:last-child{
+              @apply border-0
+            }
+          }
+          a{
+            @apply block py-4 w-full pr-12 pl-6 font-light;
+          }
+
+        }
+        > .menu-item-has-children{
+          // @apply text-sm;
+          &:after{
+            @apply hidden;
+          }
+          > .sub-menu{
+            @apply block relative shadow-none;
+          }
+        }
+      }
+    }
+
+    &:hover{
+      > .sub-menu{
+        @apply flex;
+      }
+     > a{
+       &:before {
+         width: 100%; @apply bg-octagray-900; transition: width .25s ease;
+       }
+       &:after{
+         width: 100%;
+         background: transparent;
+         transition: all 0s ease;
+       }
+      }
+      > .sub-menu{
+        @apply block;
+        a{
+          @apply cursor-pointer;
+          &:after,
+          &:before{
+            @apply hidden;
+          }
+          &:hover{
+            @apply text-deepred-900 bg-octagray-50;
+
+          }
+
+        }
+      }
+    }
+    &.menu-our-solutions{
+      &:hover{
+        >.sub-menu{
+          > .menu-item{
+            > a{
+              &:hover{
+                @apply bg-white text-octagray-900 cursor-default;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.menu-nuestras-soluciones{
+      &:hover{
+        >.sub-menu{
+          > .menu-item{
+            > a{
+              &:hover{
+                @apply bg-white text-octagray-900 cursor-default;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &__mobile{
+    @apply block;
+    li{
+      @apply ml-0;
+    }
+    a{
+      @apply block px-5 py-3;
+      &:hover{
+        @apply bg-gray-100;
+      }
+    }
+  }
+  .menu-our-solutions,
+  .menu-nuestras-soluciones{
+    > a{
+    }
+    &:hover{
+      > .sub-menu{
+        @apply flex;
+        .sub-menu{
+          @apply top-0;
+        }
+      }
+
+    }
+  }
+}
+
