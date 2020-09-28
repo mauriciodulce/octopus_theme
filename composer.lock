@@ -1300,16 +1300,16 @@
         },
         {
             "name": "log1x/acf-composer",
-            "version": "v1.5.2",
+            "version": "v1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Log1x/acf-composer.git",
-                "reference": "3606f5aebc4413ec4a7cd6842cbd574f9b6a3bdd"
+                "reference": "bee749c2f8d8d6111b0355255e754a4ff5b942af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Log1x/acf-composer/zipball/3606f5aebc4413ec4a7cd6842cbd574f9b6a3bdd",
-                "reference": "3606f5aebc4413ec4a7cd6842cbd574f9b6a3bdd",
+                "url": "https://api.github.com/repos/Log1x/acf-composer/zipball/bee749c2f8d8d6111b0355255e754a4ff5b942af",
+                "reference": "bee749c2f8d8d6111b0355255e754a4ff5b942af",
                 "shasum": ""
             },
             "require": {
@@ -1353,7 +1353,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-15T10:28:54+00:00"
+            "time": "2020-09-27T00:24:16+00:00"
         },
         {
             "name": "log1x/poet",
