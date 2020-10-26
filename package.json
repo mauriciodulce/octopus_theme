@@ -45,7 +45,7 @@
     "sass-loader": "^10.0.4",
     "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0",
-    "tailwindcss": "^1.9.5",
+    "tailwindcss": "^1.9.6",
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
