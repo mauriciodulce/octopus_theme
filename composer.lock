@@ -1030,16 +1030,16 @@
         },
         {
             "name": "johnbillion/extended-cpts",
-            "version": "4.4.0",
+            "version": "4.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnbillion/extended-cpts.git",
-                "reference": "512b3f20b3c6cda34f6bf7d892623d0daebff9ca"
+                "reference": "b62d104bffbf9998a1063879565f61c289f0c6a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/512b3f20b3c6cda34f6bf7d892623d0daebff9ca",
-                "reference": "512b3f20b3c6cda34f6bf7d892623d0daebff9ca",
+                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/b62d104bffbf9998a1063879565f61c289f0c6a9",
+                "reference": "b62d104bffbf9998a1063879565f61c289f0c6a9",
                 "shasum": ""
             },
             "require": {
@@ -1047,15 +1047,15 @@
             },
             "require-dev": {
                 "automattic/phpcs-neutron-standard": "1.5.4",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
                 "johnbillion/falsey-assertequals-detector": "^2",
                 "johnbillion/php-docs-standards": "^1",
                 "phpcompatibility/phpcompatibility-wp": "^2",
                 "phpunit/phpunit": "^6",
                 "roots/wordpress": "*",
                 "vlucas/phpdotenv": "^3",
-                "wp-cli/wp-cli-bundle": "^2.1",
-                "wp-coding-standards/wpcs": "2.1.1",
+                "wp-cli/db-command": "^2.0",
+                "wp-coding-standards/wpcs": "2.3.0",
                 "wp-phpunit/wp-phpunit": "*"
             },
             "suggest": {
@@ -1086,7 +1086,13 @@
             ],
             "description": "A library which provides extended functionality to WordPress custom post types and taxonomies.",
             "homepage": "https://github.com/johnbillion/extended-cpts/",
-            "time": "2020-07-08T19:34:12+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/johnbillion",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-12-05T20:15:02+00:00"
         },
         {
             "name": "knplabs/knp-menu",
