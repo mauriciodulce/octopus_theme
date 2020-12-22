@@ -34,7 +34,7 @@
     "eslint": "^7.16.0",
     "eslint-plugin-import": "^2.22.1",
     "laravel-mix": "^5.0.9",
-    "laravel-mix-copy-watched": "^2.2.4",
+    "laravel-mix-copy-watched": "^2.3.0",
     "laravel-mix-purgecss": "^5.0.0",
     "npm-run-all": "^4.1",
     "postcss-preset-env": "^6.7.0",
