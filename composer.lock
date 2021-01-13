@@ -1030,26 +1030,25 @@
         },
         {
             "name": "johnbillion/extended-cpts",
-            "version": "4.4.1",
+            "version": "4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnbillion/extended-cpts.git",
-                "reference": "b62d104bffbf9998a1063879565f61c289f0c6a9"
+                "reference": "da72234393818600f1eecbcb7d6e651dfeca6f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/b62d104bffbf9998a1063879565f61c289f0c6a9",
-                "reference": "b62d104bffbf9998a1063879565f61c289f0c6a9",
+                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/da72234393818600f1eecbcb7d6e651dfeca6f75",
+                "reference": "da72234393818600f1eecbcb7d6e651dfeca6f75",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0"
+                "php": "^7 | ^8"
             },
             "require-dev": {
-                "automattic/phpcs-neutron-standard": "1.5.4",
+                "automattic/phpcs-neutron-standard": "1.6.0",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
                 "johnbillion/falsey-assertequals-detector": "^2",
-                "johnbillion/php-docs-standards": "^1",
                 "phpcompatibility/phpcompatibility-wp": "^2",
                 "phpunit/phpunit": "^6",
                 "roots/wordpress": "*",
@@ -1092,7 +1091,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-05T20:15:02+00:00"
+            "time": "2021-01-12T23:27:05+00:00"
         },
         {
             "name": "knplabs/knp-menu",
