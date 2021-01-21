@@ -1323,10 +1323,15 @@
     "@wordpress/warning" "^1.3.0"
     core-js "^3.6.4"
 
-"@wordpress/browserslist-config@^2.6.0", "@wordpress/browserslist-config@^2.7.0":
+"@wordpress/browserslist-config@^2.7.0":
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/@wordpress/browserslist-config/-/browserslist-config-2.7.0.tgz#37e39ede39bec5a540dc93b96569787025aadc83"
   integrity sha512-pB45JlfmHuEigNFZ1X+CTgIsOT3/TTb9iZxw1DHXge/7ytY8FNhtcNwTfF9IgnS6/xaFRZBqzw4DyH4sP1Lyxg==
+
+"@wordpress/browserslist-config@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/browserslist-config/-/browserslist-config-3.0.0.tgz#9d8cc458547e832716ea3ace0b32dcecb41f9d37"
+  integrity sha512-8BDfpILiw23rr5znj6K9M+vUZ8nBzMzG/XPyFdRG0Wr/OsnzTDlFBnOcFpQGEWnwmIr1HA2jIzLxr9PAR6c84A==
 
 "@wordpress/dependency-extraction-webpack-plugin@^2.8.0":
   version "2.8.0"
