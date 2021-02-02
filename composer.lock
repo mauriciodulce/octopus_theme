@@ -1697,16 +1697,16 @@
         },
         {
             "name": "mwdelaney/sage-advanced-custom-fields",
-            "version": "1.5",
+            "version": "1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MWDelaney/sage-advanced-custom-fields.git",
-                "reference": "8721a1dd79545d05e08f841b97cb00c5150cf9f7"
+                "reference": "96d21294fa1bbb090a1c8b8ae39f8dcf018d61cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MWDelaney/sage-advanced-custom-fields/zipball/8721a1dd79545d05e08f841b97cb00c5150cf9f7",
-                "reference": "8721a1dd79545d05e08f841b97cb00c5150cf9f7",
+                "url": "https://api.github.com/repos/MWDelaney/sage-advanced-custom-fields/zipball/96d21294fa1bbb090a1c8b8ae39f8dcf018d61cd",
+                "reference": "96d21294fa1bbb090a1c8b8ae39f8dcf018d61cd",
                 "shasum": ""
             },
             "require": {
@@ -1735,7 +1735,7 @@
                 "json",
                 "wordpress"
             ],
-            "time": "2020-03-06T14:32:24+00:00"
+            "time": "2021-02-01T16:02:34+00:00"
         },
         {
             "name": "nesbot/carbon",
