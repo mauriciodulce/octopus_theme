@@ -7525,10 +7525,10 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-purgecss-with-wordpress@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/purgecss-with-wordpress/-/purgecss-with-wordpress-4.0.2.tgz#6de334795ba7eb3706c416c45a28c72d26e36960"
-  integrity sha512-XoUq5QS+IjmAiKTQWA2yWIRvtUrvbWSEEQbDcif6NLabwEiJ8vo4sahpBD1HgfefR4eumDvROOcx1KfmwxQi0w==
+purgecss-with-wordpress@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/purgecss-with-wordpress/-/purgecss-with-wordpress-4.0.3.tgz#f5754f8b02e876ae06cb658d278842c08f610c51"
+  integrity sha512-TpbJJ8Iq/dJVvdp3QxoXc1rBpYIR/uuaowRETOeAFMdpSOGfsxt+pmOlWw0nzfAdx/39w9zIAWMynuoRjVlHNQ==
 
 purgecss@^2.3.0:
   version "2.3.0"
