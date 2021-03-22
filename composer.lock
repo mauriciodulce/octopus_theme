@@ -1032,16 +1032,16 @@
         },
         {
             "name": "johnbillion/extended-cpts",
-            "version": "4.5.1",
+            "version": "4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnbillion/extended-cpts.git",
-                "reference": "b8aef5ef64335d51784e391c9393145f50482fb4"
+                "reference": "59ce9f4e0422512eec6f698ccba4a6a81b018fdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/b8aef5ef64335d51784e391c9393145f50482fb4",
-                "reference": "b8aef5ef64335d51784e391c9393145f50482fb4",
+                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/59ce9f4e0422512eec6f698ccba4a6a81b018fdb",
+                "reference": "59ce9f4e0422512eec6f698ccba4a6a81b018fdb",
                 "shasum": ""
             },
             "require": {
@@ -1053,11 +1053,11 @@
                 "johnbillion/falsey-assertequals-detector": "^2",
                 "phpcompatibility/phpcompatibility-wp": "^2",
                 "phpunit/phpunit": "^6",
-                "roots/wordpress": "*",
+                "roots/wordpress": "^5.7.0",
                 "vlucas/phpdotenv": "^3",
                 "wp-cli/db-command": "^2.0",
                 "wp-coding-standards/wpcs": "2.3.0",
-                "wp-phpunit/wp-phpunit": "*"
+                "wp-phpunit/wp-phpunit": "^5.7.0"
             },
             "suggest": {
                 "seravo/wp-custom-bulk-actions": "Custom Bulk Actions",
@@ -1093,7 +1093,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-26T10:10:55+00:00"
+            "time": "2021-03-21T00:26:19+00:00"
         },
         {
             "name": "knplabs/knp-menu",
@@ -2308,12 +2308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/support.git",
-                "reference": "0c5231dc194407e32bfee000d49a36775040289a"
+                "reference": "ed3babc889bb1c596c01cf7b0cb296907db1d56b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/support/zipball/0c5231dc194407e32bfee000d49a36775040289a",
-                "reference": "0c5231dc194407e32bfee000d49a36775040289a",
+                "url": "https://api.github.com/repos/roots/support/zipball/ed3babc889bb1c596c01cf7b0cb296907db1d56b",
+                "reference": "ed3babc889bb1c596c01cf7b0cb296907db1d56b",
                 "shasum": ""
             },
             "require": {
@@ -2350,7 +2350,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2019-01-28T09:46:14+00:00"
+            "time": "2021-03-08T21:22:06+00:00"
         },
         {
             "name": "soberwp/controller",
