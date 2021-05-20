@@ -51,6 +51,6 @@
   "dependencies": {
     "alpinejs": "^2.8.1",
     "jquery": "^3.6.0",
-    "swiper": "^6.5.0"
+    "swiper": "^6.6.2"
   }
 }
