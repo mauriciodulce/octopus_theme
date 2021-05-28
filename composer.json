@@ -54,7 +54,7 @@
     "log1x/sage-svg": "^1.0",
     "mwdelaney/sage-advanced-custom-fields": "^1.5",
     "roots/acorn": "^1.1.0",
-    "soberwp/controller": "2.1.2",
+    "soberwp/controller": "2.1.3",
     "stoutlogic/acf-builder": "^1.10",
     "strickdj/acf-address": "dev-master"
   },
