@@ -49,7 +49,7 @@
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
-    "alpinejs": "^2.8.1",
+    "alpinejs": "^3.1.0",
     "jquery": "^3.6.0",
     "swiper": "^6.5.0"
   }
